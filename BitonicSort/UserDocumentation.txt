@@ -1,0 +1,25 @@
+Bitonic Sort
+
+A parallel sorting algorithm for generic lists.
+Runs on Java 11.
+This is both a parallel and a serial version of
+the Bitonic Sort algorithm for educational purposes.
+
+** Build **
+
+In the project root, run `ant compile jar`.
+Two jar files will appear in `build/jar`,
+one for the CLI and one for running tests.
+
+** CLI Usage **
+
+java -jar build/jar/Sort.jar [OPTION]... [FILE|-]
+
+ Options:
+  -r, --reverse        Reverse sort direction.
+  -h, --help           Display this help and exit.
+
+
+** Running Tests **
+
+java -jar build/jar/Tests.jar
